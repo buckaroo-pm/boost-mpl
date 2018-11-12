@@ -8,6 +8,9 @@ prebuilt_cxx_library(
   licenses = [
     'LICENSE', 
   ], 
+  deps = [
+    'buckaroo.github.buckaroo-pm.boost-config//:config', 
+  ], 
   visibility = [
     'PUBLIC', 
   ], 
