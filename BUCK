@@ -5,7 +5,7 @@ prebuilt_cxx_library(
   exported_headers = subdir_glob([
     ('include/boost', '**/*.hpp'), 
   ]), 
-  license = [
+  licenses = [
     'LICENSE', 
   ], 
   visibility = [
