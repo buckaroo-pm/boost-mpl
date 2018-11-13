@@ -11,6 +11,7 @@ prebuilt_cxx_library(
   deps = [
     'buckaroo.github.buckaroo-pm.boost-config//:config', 
     'buckaroo.github.buckaroo-pm.boost-preprocessor//:preprocessor', 
+    'buckaroo.github.buckaroo-pm.boost-type_traits//:type-traits', 
   ], 
   visibility = [
     'PUBLIC', 
