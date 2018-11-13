@@ -3,3 +3,7 @@ targets = [ "//:mpl" ]
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-preprocessor"
+version = "branch=master"
