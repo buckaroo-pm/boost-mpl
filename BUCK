@@ -1,19 +1,18 @@
+load('//:buckaroo_macros.bzl', 'buckaroo_deps')
+load('//:subdir_glob.bzl', 'subdir_glob')
+
 prebuilt_cxx_library(
-  name = 'mpl', 
-  header_only = True, 
-  header_namespace = 'boost', 
+  name = 'mpl',
+  header_only = True,
+  header_namespace = 'boost',
   exported_headers = subdir_glob([
-    ('include/boost', '**/*.hpp'), 
-  ]), 
+    ('include/boost', '**/*.hpp'),
+  ]),
   licenses = [
-    'LICENSE', 
-  ], 
-  deps = [
-    'buckaroo.github.buckaroo-pm.boost-config//:config', 
-    'buckaroo.github.buckaroo-pm.boost-preprocessor//:preprocessor', 
-    'buckaroo.github.buckaroo-pm.boost-type_traits//:type-traits', 
-  ], 
+    'LICENSE',
+  ],
+  deps = buckaroo_deps(),
   visibility = [
-    'PUBLIC', 
-  ], 
+    'PUBLIC',
+  ],
 )
