@@ -14,4 +14,4 @@ revision = "4392ed19b232ed2dde7623843d7e30ef669d860e"
 
 [lock."github.com/buckaroo-pm/boost-preprocessor"]
 versions = [ "branch=master" ]
-revision = "a70772bbd315eb597c3f1e359af742dde46a6f37"
+revision = "4d01d0f9c0ae3ae3cd20e3cbfddbc9909ce8e064"
